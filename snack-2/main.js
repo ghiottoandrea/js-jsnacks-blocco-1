@@ -10,12 +10,12 @@ console.log(firstLength, secondtLength);
 //Il software stampa prima la parola più corta, poi la parola più lunga.
 if (firstLength > secondtLength){
     console.log(firstword);
-    alert("La parola più lunga è "+firstword)
+    alert("La parola più corta è "+secondtword+" e quella più lunga è "+ firstword)
 
 }else if (firstLength < secondtLength){
     console.log(secondword);
-    alert("La parola più lunga è "+secondword)
-    
+    alert("La parola più corta è "+firstword+" e quella più lunga è "+ secondword)
+
 }else{
     alert("Le parole hanno la stessa lunghezza")
 }
