@@ -6,10 +6,10 @@ console.log(number2);
 
 //Confronto per trovare il maggiore e lo stampo
 if (number1 > number2){
-    console.log(number1);
+    //console.log(number1);
     alert("Il numero più grande è "+number1)
 }else{
-    console.log(number2);
+    //console.log(number2);
     alert("Il numero più grande è "+number2)
 
 }
